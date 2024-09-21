@@ -1,0 +1,149 @@
+  .electric {
+    @apply bg-yellow-400;
+  }
+  
+  .water {
+    @apply bg-blue-400;
+  }
+  
+  .fire {
+    @apply bg-red-500;
+  }
+  
+  .grass {
+    @apply bg-green-400;
+  }
+  
+  .ice {
+    @apply bg-cyan-300;
+  }
+  
+  .fighting {
+    @apply bg-red-600;
+  }
+  
+  .poison {
+    @apply bg-purple-600;
+  }
+  
+  .ground {
+    @apply bg-yellow-600;
+  }
+  
+  .flying {
+    @apply bg-indigo-400;
+  }
+  
+  .psychic {
+    @apply bg-pink-500;
+  }
+  
+  .bug {
+    @apply bg-lime-500;
+  }
+  
+  .rock {
+    @apply bg-amber-700;
+  }
+  
+  .ghost {
+    @apply bg-purple-700;
+  }
+  
+  .dragon {
+    @apply bg-indigo-700;
+  }
+  
+  .dark {
+    @apply bg-gray-700;
+  }
+  
+  .steel {
+    @apply bg-gray-400;
+  }
+  
+  .fairy {
+    @apply bg-pink-300;
+  }
+
+  .normal {
+    @apply bg-gray-300 text-black;
+  }
+
+  /* Hover para cada tipo */
+.move:hover {
+  @apply scale-105; /* Un pequeño efecto de escala */
+}
+
+/* Efectos de hover según el tipo */
+.electric:hover {
+  @apply bg-yellow-500;
+}
+
+.water:hover {
+  @apply bg-blue-500;
+}
+
+.fire:hover {
+  @apply bg-red-600;
+}
+
+.grass:hover {
+  @apply bg-green-500;
+}
+
+.ice:hover {
+  @apply bg-cyan-400;
+}
+
+.fighting:hover {
+  @apply bg-red-700;
+}
+
+.poison:hover {
+  @apply bg-purple-700;
+}
+
+.ground:hover {
+  @apply bg-yellow-700;
+}
+
+.flying:hover {
+  @apply bg-indigo-500;
+}
+
+.psychic:hover {
+  @apply bg-pink-600;
+}
+
+.bug:hover {
+  @apply bg-lime-600;
+}
+
+.rock:hover {
+  @apply bg-amber-800;
+}
+
+.ghost:hover {
+  @apply bg-purple-800;
+}
+
+.dragon:hover {
+  @apply bg-indigo-800;
+}
+
+.dark:hover {
+  @apply bg-gray-800;
+}
+
+.steel:hover {
+  @apply bg-gray-500;
+}
+
+.fairy:hover {
+  @apply bg-pink-400;
+}
+
+.normal:hover {
+  @apply bg-gray-400;
+}
